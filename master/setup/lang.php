@@ -1,0 +1,95 @@
+<?php
+return array(
+    'check' => array(
+        'zip_ext' => 'Zip extension',
+        'php_ver' => 'PHP version',
+        'write_inst_dir' => 'Instalation directory is writable',
+        'pcre_ext' => 'PCRE extension',
+        'spl_ext' => 'SPL extension',
+        'mysql_ext' => 'MySQL extension',
+        'gd_ext' => 'GD extension with FreeType support',
+        'finfo_ext' => 'Fileinfo extension or MIME function support',
+        'curl_ext' => 'CURL entension',
+        'json_ext' => 'JSON entension',
+        'comment' => array(
+            'zip_ext' => 'Installer requires ZIP extension to unpack files',
+            'php_ver' => 'PHP {ver} or higher is required.',
+            'write_inst_dir' => '',
+            'pcre_ext' => '',
+            'spl_ext' => '',
+            'mysql_ext' => '',
+            'gd_ext' => '',
+            'finfo_ext' => '',
+            'curl_ext' => '',
+            'json_ext' => '',
+        ),
+    ),
+    'module' => array(
+        'base' => 'Base classes, modeles, functionality',
+        'swf_file_upload' => 'SWF file uploader',
+        'media' => 'Media',
+        'curl' => 'Curl',
+        'site' => 'Common Site',
+        'db' => 'Database',
+        'cache' => 'Cache',
+        'compression' => 'Resource compression',
+    ),
+    'module_vars' => array(
+        'site' => array(
+            'name' => 'Name',
+            'debug' => 'Debug mode',
+            'admin_url' => 'Administration panel url',
+            'theme' => 'Template Theme',
+        ),
+        'db' => array(
+            'server' => 'Server host',
+            'dbname' => 'DB Name',
+            'dbdriver' => 'Database driver',
+            'username' => 'Username',
+            'password' => 'Password',
+        ),
+        'cache' => array(
+            'use' => 'Use cache?',
+            'cache' => 'Cache class',
+            'host' => 'Cache server host',
+            'port' => 'Cache server port',
+        ),
+        'compression' => array(
+            'use' => 'Use Resource compression?',
+            'compression' => 'use compression',
+        ),
+    ),
+    'process' => array(
+        'module' => 'Unzip files...',
+        '2' => 'Setup settings...',
+        '3' => 'Configure settings...',
+        'done' => 'Done!',
+    ),
+    '_error' => array(
+        'no_check' => 'Need verify system first',
+        'no_module' => 'Set modules first',
+        'no_code' => 'Set settings first',
+        'no_confirm' => 'Confirm setup settings first',
+        'module' => array(
+            'site' => array(
+                'empty_name' => 'Site name can not be empty',
+                'empty_debug' => 'Debug flag can not be empty',
+                'empty_admin_url' => 'Administration url part can not be empty',
+                'empty_theme' => 'View theme can not be empty',
+            ),
+            'db' => array(
+                'empty_server' => 'Server can not be empty',
+                'empty_dbname' => 'Database name can not be empty',
+                'empty_username' => 'User name for database login can not be empty',
+                'fail_connect' => 'Can not connect to database',
+                'unknown_dbdriver' => 'Unknown selected database driver',
+            ),
+            'cache' => array(
+                'empty_cache' => 'Cache class can not be empty',
+                'empty_host' => 'Cache server can not be empty',
+                'empty_port' => 'Cache server port can not be empty',
+            ),
+        ),
+    ),
+);
+?>

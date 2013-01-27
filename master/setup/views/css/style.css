@@ -1,0 +1,74 @@
+/*---------------------------------------*/
+html, body { margin: 0; padding: 0; height: 100%; }
+body, input[type='text'], input[type='password'], textarea, table, th,td { font: 13px/16px Verdana, Arial, Tahoma, sans-serif; color: #404040; }
+/*---------------------------------------*/
+h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; font-weight: normal; font-size: 100%; }
+a, a:visited { text-decoration: none; color: #00006e; }
+a img { border: none; }  
+a, input, textarea { outline: none; }
+p { margin: 0; padding: 5px 0; }
+/*---------------------------------------*/
+form { padding: 0; margin: 0; }
+label span { color: #a80429; }
+input[type='text'], input[type='password'], textarea, select { background: #fff; padding: 1px; margin: 0; border: 1px solid #d4d2d2; color: #58595b; }
+input[type='text'], input[type='password'] { height: 19px; line-height: 19px; }
+input[type='text'].invalid, input[type='password'].invalid, select.invalid { border: 1px solid #a80429; }
+input[type='checkbox'], input[type='radio'] { margin: 0; padding: 0; }
+textarea { height: 50px; resize: none; }
+.btn { text-align: right; padding: 5px 10px 8px 0; }
+/*---------------------------------------*/
+.hidden { display: none; }
+/*---List Style Clean---------------------*/
+header ul, footer ul, section ul, article ul { margin: 0; padding: 0; list-style: none; }
+/*---------------------------------------*/
+#main { width: 950px; margin: 0 auto; min-height: 100%; height: auto!important; height: 100%; }
+/*---------------------------------------*/
+header { height: 90px; margin-bottom: 10px; overflow: hidden; clear: both; background: #f9f9f9; border: 1px solid #e3e3e3; border-top: none; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; -webkit-border-bottom-left-radius: 10px; -webkit-border-bottom-right-radius: 10px; -moz-border-radius-bottomleft: 10px; -moz-border-radius-bottomright: 10px; }
+header .header-content { overflow: hidden; }
+header h1 { color: #1c0053; font-size: 22px; text-align: center; padding-top: 30px; }
+header .logo, header .logo a, header .logo img, header .logo span { float: left; }  
+header .logo span { font-size: 16px; line-height: 18px; padding: 28px 0 0 10px; }
+/*---------------------------------------*/
+ul.mmenu { width: 950px; height: 30px; position: relative; z-index: 1; }
+ul.mmenu li { float: left; margin-left: 36px; height: 30px; }
+ul.mmenu li:first-child { margin-left: 0; }
+ul.mmenu li a { color: #00006e; }
+ul.mmenu li.current a, ul.mmenu li:hover a { color: #a201a0; }
+/*---------------------------------------*/
+#content { padding: 20px 20px 90px 20px; overflow: hidden; clear: both; background: #f9f9f9; border: 1px solid #e3e3e3; border-top-left-radius: 10px; border-top-right-radius: 10px; -webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; -moz-border-top-left-radius: 10px; -moz-border-top-right-radius: 10px; }
+#content .items .item { background: #eaeaea; padding: 10px 10px 0; margin-bottom: 10px; border: 1px solid #d4d2d2; border-radius: 7px; -webkit-border-radius: 7px; -moz-border-radius: 7px; }
+#content .items .item.error { background: orangered; color: whitesmoke; border: 1px solid red; }
+/*---------------------------------------*/
+.column { float:left; width: 250px; }
+/*---------------------------------------*/
+.item .row { width: 885px; }
+.item .title h3 { font-size: 18px; font-weight: bold; color: #410166; padding-bottom: 20px; }
+.item .row.subtitle p { font-size: 14px; color: #410166; padding-bottom: 10px; }
+.item .row label { width: 160px; line-height: 23px; float: left; }
+.item .row input[type='text'], .item .row input[type='password'] { width: 150px; }
+/*---------------------------------------*/
+.item .progressblock { overflow: hidden; }
+.item .loading { display: hidden; width: 128px; height: 128px; }
+.item .loading.left { float: left; }
+.item .loading.right { float: right; }
+.item .progress { width: 630px; float: left; }
+/*---------------------------------------*/
+.item.error .row.title h4 { font-size: 16px; font-weight: bold; color: wheat; padding-bottom: 10px; }
+/*---------------------------------------*/
+.columed-content { width: 886px; overflow: hidden; padding-bottom: 10px; }
+.columed-content .column { width: 393px; padding-left: 7px; }
+.columed-content .row { width: 390px; overflow: hidden; padding: 3px 0; }
+/*---------------------------------------*/
+.check td.ok { background: url(../image/ok.png) no-repeat; width: 20px; }
+.check td.fail { background: url(../image/fail.png) no-repeat; width: 20px; }
+.check tr.fail { color: red; }
+/*---------------------------------------*/
+footer { background: #6b6a6a; height: 90px; margin-top: -90px; overflow: hidden; text-align: center; color: #c1bfbf; } 
+footer div { margin-top: 30px; }
+footer p { padding: 0; }
+footer p a { color: #c1bfbf; }
+footer p a:hover { text-decoration: underline; }
+/*---------------------------------------*/
+footer ul.fmenu { padding: 17px 0 10px; } 
+footer ul.fmenu li { display: inline; padding: 0 20px; }
+footer ul.fmenu a { color: #e9e8e8; font-weight: bold; }
